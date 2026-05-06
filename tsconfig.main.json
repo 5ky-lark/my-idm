@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "outDir": "dist/main",
+    "rootDir": "app",
+    "types": ["node", "electron"]
+  },
+  "include": ["app/main/**/*.ts", "app/main/**/*.cts", "app/shared/**/*.ts"]
+}

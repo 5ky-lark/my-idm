@@ -45,7 +45,3 @@ If packaging fails on symlink permissions, the project sets `win.signAndEditExec
 | `npm run build`   | Renderer + main TypeScript build |
 | `npm run package` | Build + `electron-builder` (win) |
 | `npm test`        | Minimal smoke tests              |
-
-## License
-
-MIT — see `package.json`.

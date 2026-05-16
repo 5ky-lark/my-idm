@@ -2,7 +2,6 @@
 
 Windows-first personal download manager built with **Electron**, **React**, and **TypeScript**. Queue direct URLs, segmented range downloads when supported, pause/resume, and a persisted job list.
 
-Repository: [github.com/5ky-lark/my-idm](https://github.com/5ky-lark/my-idm)
 
 ## Requirements
 
@@ -46,19 +45,6 @@ If packaging fails on symlink permissions, the project sets `win.signAndEditExec
 | `npm run build`   | Renderer + main TypeScript build |
 | `npm run package` | Build + `electron-builder` (win) |
 | `npm test`        | Minimal smoke tests              |
-
-## Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial MyIDM"
-git branch -M main
-git remote add origin https://github.com/5ky-lark/my-idm.git
-git push -u origin main
-```
-
-If the remote already exists, use `git remote set-url origin https://github.com/5ky-lark/my-idm.git` instead.
 
 ## License
 
